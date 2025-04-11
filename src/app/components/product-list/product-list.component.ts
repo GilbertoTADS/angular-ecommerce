@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { ProductService } from '../../services/product.service';
 import { Product } from '../../commom/product';
-import { CurrencyPipe } from '@angular/common';
+import { CurrencyPipe, NgForOf } from '@angular/common';
 
 @Component({
   selector: 'app-product-list',
-  imports: [CurrencyPipe],
+  imports: [CurrencyPipe, NgForOf],
   templateUrl: './product-list.component.html',
   styleUrl: './product-list.component.css'
 })

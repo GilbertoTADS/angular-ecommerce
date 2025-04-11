@@ -4,10 +4,11 @@ export class Product {
         public sku:string,
         public name:string,
         public description:string,
-        public price:number,
+        public unitPrice:number,
+        public category:string,
         public imageUrl:string,
         public active:boolean,
-        public inventory:number,
+        public unitsInStock:number,
         public dateCreated:Date,
         public lastUpdated:Date
     ){}
